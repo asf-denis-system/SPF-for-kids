@@ -23,7 +23,7 @@ SPF (Вторые принципы фреймворка)
 
 Конкретные реализации (третьи принципы)
 ↓
-kids-learning-pack, другие модули
+SPF-Kids-Learning-Pack, другие модули
 ```
 
 ---
@@ -255,9 +255,9 @@ kids-learning-pack, другие модули
 
 ## 6. МЕТАСТРУКТУРА РЕАЛИЗАЦИИ
 
-Любая конкретная реализация (например, kids-learning-pack) должна содержать:
+Любая конкретная реализация (например, SPF-Kids-Learning-Pack) должна содержать:
 
-| Слой | Назначение | kids-learning-pack |
+| Слой | Назначение | SPF-Kids-Learning-Pack |
 |------|-----------|----------|
 | **00-contract** | Граница системы, словарь | 01-domain-contract/ |
 | **01-entities** | Роли, агенты, что меняется | 02-domain-entities/ |
@@ -326,7 +326,7 @@ FPF (Как моделировать системы; Distinctions, Stakeholders,
 SPF (Вторая форма: Contract, Entities, Working-distinctions, Methods, Work-products, Failure-modes, SoTA)
     ↓ (Применяем к домену: изменение мастерства детей)
     
-kids-learning-pack (Третья форма: конкретные различения, роли, эпизоды, логи)
+SPF-Kids-Learning-Pack (Третья форма: конкретные различения, роли, эпизоды, логи)
     ↓ (Применяем в конкретной семье)
     
 Практика в доме (Наблюдение, адаптация, гипотезы)
@@ -354,7 +354,7 @@ SPF-for-kids/
 ├── README.md (нав примерка.)
 ├── SPF-pack-v1.1.md (архив, старая версия)
 ├── SPF-ARCHITECTURE.md (вы здесь)
-├── kids-learning-pack/ (конкретная реализация для 4–7 лет)
+├── SPF-Kids-Learning-Pack/ (конкретная реализация для 4–7 лет)
 │   ├── 00-pack-manifest.md
 │   ├── 01-domain-contract/
 │   ├── 02-domain-entities/
@@ -377,11 +377,11 @@ SPF-for-kids/
 
 **Если вы разработчик новой реализации:**
 - Используйте структуру SPF (раздел 6)
-- Следуйте kids-learning-pack как шаблон
+- Следуйте SPF-Kids-Learning-Pack как шаблон
 - Документируйте свои граничные условия и distinctions
 
 **Если вы внедряющий (реальный родитель):**
-- Перейдите на kids-learning-pack/README.md
+- Перейдите на SPF-Kids-Learning-Pack/README.md
 - Это вам объяснит, что делать практически
 
 **Если что-то не ясно:**
